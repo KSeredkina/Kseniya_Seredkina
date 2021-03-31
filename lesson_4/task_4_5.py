@@ -34,14 +34,6 @@ def currency_rates_parsing(argv):
     return 0
 
 
-def main(argv):
-    program, *args = argv
-    result = sum(map(int, args))
-    print(f'результат: {result}')
-
-    return 0
-
-
 if __name__ == '__main__':
     import sys
 
